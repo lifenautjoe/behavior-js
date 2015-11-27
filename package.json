@@ -1,7 +1,7 @@
 {
     "name": "behavior-js",
     "version": "1.0.0",
-    "description": "Objects that represent behavior",
+    "description": "Simple objects that represent simple behavior",
     "license": "MIT",
     "repository": {
         "type": "git",
