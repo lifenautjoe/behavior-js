@@ -24,7 +24,16 @@ class Behavior {
         }
 
         // Default to an empty exceptions array if no exceptions argument was given or the given argument is not an array
-        this.exceptions = _.isArray(exceptions) ? exceptions :  [];
+        this.exceptions = _.isArray(exceptions) ? exceptions : [];
+    }
+
+    /**
+     * Checks whether the given behavior action is within the behavior exceptions
+     * @param {string} action
+     * @returns {boolean}
+     */
+    public actionIsInExceptions(action : string) {
+        return _.includes(this.exceptions, action);
     }
 
     /**
@@ -34,8 +43,9 @@ class Behavior {
      * @returns {boolean}
      */
     public isAllowed(action : string) {
-        return (this.allowed && !_.includes(this.exceptions, action)) ||
-            (!this.allowed && _.includes(this.exceptions, action));
+        var actionIsInExceptions = this.actionIsInExceptions(action);
+        return (this.allowed && !actionIsInExceptions) ||
+            (!this.allowed && actionIsInExceptions);
     }
 }
 
