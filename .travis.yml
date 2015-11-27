@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "stable"
+# whitelist
+before_script:
+  - npm install -g gulp
+  - npm install -g typescript
+  - npm install -g tslint
+  - npm install -g tsd
+script: gulp test
+branches:
+  only:
+    - master
