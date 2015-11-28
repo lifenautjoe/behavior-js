@@ -31,8 +31,9 @@ class Behavior {
      * Checks whether the given behavior action is within the behavior exceptions
      * @param {string} action
      * @returns {boolean}
+     * @private
      */
-    public actionIsInExceptions(action : string) {
+    private actionIsInExceptions(action : string) {
         return _.includes(this.exceptions, action);
     }
 

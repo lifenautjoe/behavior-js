@@ -5,7 +5,7 @@ declare class Behavior {
     exceptions: string[];
     constructor(allowed: boolean, exceptions: string);
     constructor(allowed: boolean, exceptions: string[]);
-    actionIsInExceptions(action: string): boolean;
+    private actionIsInExceptions(action);
     isAllowed(action: string): boolean;
 }
 export = Behavior;
