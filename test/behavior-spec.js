@@ -1,13 +1,5 @@
 var Behavior = require('../lib/index');
 var _ = require('lodash');
-/*
-var dinning;
-var dinningAllowed;
-var dinningExceptions = [
-    'chewing gum',
-    'getting drunk',
-    'laughing at your mother in law'
-];*/
 
 describe('Behavior', function () {
 
