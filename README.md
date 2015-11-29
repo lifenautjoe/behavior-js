@@ -27,6 +27,8 @@ Usage
 **Let**
 
 ``` js
+var Behavior = require('behavior-js');
+
 // Whether the behavior is allowed
 var politenessAllowed = true;
 
@@ -43,6 +45,8 @@ var politeness = new Behavior(politenessAllowed,politenessException);
 **Let**
 
 ``` js
+var Behavior = require('behavior-js');
+
 // Whether the behavior is allowed
 var leadershipAllowed = true;
 
@@ -64,6 +68,9 @@ var leadership = new Behavior(leadershipAllowed,leadershipExceptions);
 **Let**
 
 ``` js
+var Behavior = require('behavior-js');
+
+
 // Whether the behavior is allowed
 var agressionAllowed = false;
 
@@ -99,6 +106,8 @@ agression.isAllowed('anger');
 #### Instantiation
 
 ```js
+var Behavior = require('behavior-js');
+
 // These are the query parameters we want to prevent from getting parsed
 var parsingExceptions = [
 	'onSuccess',
@@ -122,11 +131,12 @@ queryParser.parseParameter = function(name,value){
 
 ## Tests
 
+All of the tests are written in [Jasmine](https://jasmine.github.io/) with the [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) process
+
 ### Requirements
 
 ``` bash
 npm install gulp typescript tslint tsd -g
-npm install
 ```
 ### Run
 
