@@ -147,4 +147,6 @@ npm install gulp typescript tslint tsd -g
 npm test
 ```
 
-#### Author: [Joel Hernández](https://github.com/thefabulousdev)
+#### Author
+
+[Joel Hernández](https://github.com/thefabulousdev)
