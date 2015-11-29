@@ -3,7 +3,7 @@ behavior-js
 
 Motivation
 --------
-Provide a minimal way to represent a behavior, whether it's allowed and the exceptions to the allowance
+Provide a minimal way to represent a behavior, whether it's allowed and the exceptions to the allowance.
 
 Installation
 --------
@@ -20,7 +20,7 @@ Usage
 
 ## Instantiation
 
-### new Behavior(allowed : boolean, exceptions : array | string)
+### new Behavior(allowed : boolean, exceptions : string[] | string)
 
 #### Single exception
 
@@ -59,7 +59,7 @@ var leadership = new Behavior(leadershipAllowed,leadershipExceptions);
 
 ## Evaluation
 
-### behavior.isAllowed(action) : boolean
+### behavior.isAllowed(action : string) : boolean
 
 **Let**
 
@@ -89,7 +89,7 @@ agression.isAllowed('anger');
 ```
 ## Sample use case
 
-### Background
+### Problem
 
 > I have a library that parses url query parameters but I would like to
 > prevent some parameters from getting parsed
