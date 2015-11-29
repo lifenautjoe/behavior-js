@@ -134,7 +134,7 @@ queryParser.parseParameter = function(name,value){
 
 ## Tests
 
-All of the tests are written in [Jasmine](https://jasmine.github.io/) with the [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) process
+All of the tests are written in [Jasmine](https://jasmine.github.io/)
 
 ### Requirements
 
