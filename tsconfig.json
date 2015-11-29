@@ -12,6 +12,7 @@
     "src/**/*.ts"
   ],
   "files": [
-    "src/greeter.ts"
+    "src/behavior.ts",
+    "src/index.ts"
   ]
 }

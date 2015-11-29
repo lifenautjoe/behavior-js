@@ -58,5 +58,7 @@ gulp.task('build', 'Compiles all TypeScript source files and updates module refe
 
 gulp.task('test', 'Runs the Jasmine test specs', ['build'], function () {
   return gulp.src('test/*.js')
-    .pipe(jasmine());
+    .pipe(jasmine({
+        verbose : true
+    }));
 });
