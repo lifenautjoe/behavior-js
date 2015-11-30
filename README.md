@@ -1,8 +1,5 @@
-![behavior-js](http://oi68.tinypic.com/2naplrs.jpg)
-
-[![NPM](https://nodei.co/npm/behavior-js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/behavior-js/)
-
-[![Build Status](https://travis-ci.org/thefabulousdev/behavior-js.svg?branch=master)](https://travis-ci.org/thefabulousdev/behavior-js)[![dependencies](https://david-dm.org/thefabulousdev/behavior-js.svg)](https://david-dm.org/thefabulousdev/behavior-js)
+behavior-js
+===============
 
 Motivation
 --------
@@ -14,6 +11,12 @@ Installation
 ``` bash
 npm install behavior-js
 ```
+
+Roadmap
+--------
+
+ - Actions functions
+ - Actions functions async and sequential evaluations
 
 Usage
 --------
@@ -134,7 +137,7 @@ queryParser.parseParameter = function(name,value){
 
 ## Tests
 
-All of the tests are written in [Jasmine](https://jasmine.github.io/)
+All of the tests are written in [Jasmine](https://jasmine.github.io/) with the [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) process
 
 ### Requirements
 
@@ -147,6 +150,4 @@ npm install gulp typescript tslint tsd -g
 npm test
 ```
 
-#### Author
-
-[Joel Hernández](https://github.com/thefabulousdev)
+#### Author: [Joel Hernández](https://github.com/thefabulousdev)
