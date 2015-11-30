@@ -1,5 +1,8 @@
-behavior-js
-===============
+![behavior-js](http://oi68.tinypic.com/2naplrs.jpg)
+
+[![NPM](https://nodei.co/npm/behavior-js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/behavior-js/)
+
+[![Build Status](https://travis-ci.org/thefabulousdev/behavior-js.svg?branch=master)](https://travis-ci.org/thefabulousdev/behavior-js)[![dependencies](https://david-dm.org/thefabulousdev/behavior-js.svg)](https://david-dm.org/thefabulousdev/behavior-js)
 
 Motivation
 --------
