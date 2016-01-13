@@ -50,7 +50,7 @@ describe('Behavior', function () {
 
 
                    it('should store an "exceptions" array with the given string', function () {
-                        expect(_.isArray(someBehavior.exceptions) && _.contains(someBehavior.exceptions,someBehaviorException)).toBe(true);
+                        expect(_.isArray(someBehavior.exceptions) && _.includes(someBehavior.exceptions,someBehaviorException)).toBe(true);
                    });
 
                 });
